@@ -157,7 +157,16 @@
                 padding: 0.25rem 0.5rem;
             }
             .hero-section {
-                padding: 2rem 1rem !important;
+                padding: 4rem 1rem !important;
+                min-height: 60vh;
+                background-size: cover;
+                background-position: center;
+            }
+            .hero-section h1 {
+                font-size: 2rem !important;
+            }
+            .hero-section p {
+                font-size: 1.1rem !important;
             }
             .section-header {
                 font-size: 1.5rem !important;
@@ -223,14 +232,13 @@
                 gap: 0.75rem !important;
             }
             .space-x-8 {
-                display: none !important;
+                display: flex !important;
+                justify-content: center;
+                gap: 2rem;
+                margin-bottom: 1rem;
             }
-            .space-x-8 > * {
-                margin-left: 0 !important;
-                margin-right: 0 !important;
-            }
-            .space-x-8 > * + * {
-                margin-top: 1rem !important;
+            .space-x-8 a {
+                font-size: 1.5rem;
             }
             .navbar .container {
                 flex-direction: column;
