@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتب لطيفة الجويعد للمحاماة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #111111;
+            color: #ffffff;
+        }
+
+        a {
+            color: #e5e5e5;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        .navbar, .footer {
+            background-color: #222222;
+        }
+
+        .btn-primary {
+            background-color: #444444;
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background-color: #666666;
+        }
+
+        .section-header {
+            color: #e5e5e5;
+        }
+
+        .practice-area-card {
+            background-color: #222222;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            border: 1px solid #333;
+            text-align: center;
+        }
+
+        .practice-area-card:hover {
+            background-color: #333333;
+        }
+
+        .practice-area-card a {
+            color: #e5e5e5;
+        }
+
+        .practice-area-card a:hover {
+            color: #ffffff;
+        }
+
+        .section-dark {
+            background-color: #111111;
+        }
+
+        .section-darker {
+            background-color: #222222;
+        }
+
+        .section-light {
+            background-color: #333333;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <nav class="navbar p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <img src="assets/logo.jpg" alt="مكتب لطيفة الجويعد" class="h-12">
+            <div class="space-x-4">
+                <a href="#home" class="text-white">الرئيسية</a>
+                <a href="#about" class="text-white">عن المكتب</a>
+                <a href="#practice-areas" class="text-white">مجالات الممارسة</a>
+                <a href="#contact" class="text-white">تواصل معنا</a>
+                <button onclick="window.location.href='english.html'" class="btn-primary px-4 py-2 rounded">English</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-cover bg-center text-white text-center py-24" style="background-image: url('assets/hero-image.png');">
+        <h1 class="text-4xl font-bold">مكتب لطيفة الجويعد للمحاماة</h1>
+        <p class="text-xl mt-4">نقدم حلول قانونية موثوقة وفعالة</p>
+        <a href="#contact" class="btn-primary px-6 py-2 mt-6 inline-block rounded">احصل على استشارة</a>
+    </section>
+
+    <!-- Practice Areas Section -->
+    <section id="practice-areas" class="py-16 section-darker">
+        <div class="container mx-auto text-center">
+            <h2 class="section-header text-3xl font-bold">مجالات الممارسة</h2>
+            <p class="mt-4 text-lg">نحن نقدم مجموعة واسعة من الخدمات القانونية المتخصصة. اختر من بين مجالات الممارسة أدناه للتعرف على المزيد.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="practice-area-card">
+                    <h3 class="text-xl font-bold mb-2">الشركات والتجارة</h3>
+                    <p class="mb-4">نقدم استشارات قانونية متخصصة في جميع جوانب الأعمال التجارية والشركات.</p>
+                    <a href="corporate-commercial.html" class="text-white hover:text-gray-300">اقرأ المزيد</a>
+                </div>
+                <div class="practice-area-card">
+                    <h3 class="text-xl font-bold mb-2">الضرائب</h3>
+                    <p class="mb-4">نقدم استشارات قانونية متخصصة في جميع جوانب الضرائب في المملكة العربية السعودية.</p>
+                    <a href="tax.html" class="text-white hover:text-gray-300">اقرأ المزيد</a>
+                </div>
+                <div class="practice-area-card">
+                    <h3 class="text-xl font-bold mb-2">المرافعات</h3>
+                    <p class="mb-4">نقدم استشارات قانونية متخصصة في جميع جوانب المرافعات والمنازعات.</p>
+                    <a href="litigation.html" class="text-white hover:text-gray-300">اقرأ المزيد</a>
+                </div>
+                <div class="practice-area-card">
+                    <h3 class="text-xl font-bold mb-2">البناء</h3>
+                    <p class="mb-4">نقدم استشارات قانونية متخصصة في جميع جوانب مشاريع البناء والتشييد.</p>
+                    <a href="construction.html" class="text-white hover:text-gray-300">اقرأ المزيد</a>
+                </div>
+                <div class="practice-area-card">
+                    <h3 class="text-xl font-bold mb-2">الاستثمار الأجنبي</h3>
+                    <p class="mb-4">نقدم استشارات قانونية متخصصة في مجال الاستثمار الأجنبي في المملكة.</p>
+                    <a href="foreign-investment.html" class="text-white hover:text-gray-300">اقرأ المزيد</a>
+                </div>
+                <div class="practice-area-card">
+                    <h3 class="text-xl font-bold mb-2">الجرائم الاقتصادية</h3>
+                    <p class="mb-4">نقدم استشارات قانونية متخصصة في مجال الجرائم الاقتصادية والشركات.</p>
+                    <a href="corporate-crimes.html" class="text-white hover:text-gray-300">اقرأ المزيد</a>
+                </div>
+                <div class="practice-area-card">
+                    <h3 class="text-xl font-bold mb-2">العمل</h3>
+                    <p class="mb-4">نقدم استشارات قانونية متخصصة في جميع جوانب قانون العمل والعمال.</p>
+                    <a href="labor.html" class="text-white hover:text-gray-300">اقرأ المزيد</a>
+                </div>
+                <div class="practice-area-card">
+                    <h3 class="text-xl font-bold mb-2">حل النزاعات</h3>
+                    <p class="mb-4">نقدم استشارات قانونية متخصصة في حل النزاعات والوساطة والتحكيم.</p>
+                    <a href="dispute-resolution.html" class="text-white hover:text-gray-300">اقرأ المزيد</a>
+                </div>
+                <div class="practice-area-card">
+                    <h3 class="text-xl font-bold mb-2">الحوكمة</h3>
+                    <p class="mb-4">نقدم استشارات قانونية متخصصة في مجال حوكمة الشركات والامتثال.</p>
+                    <a href="governance.html" class="text-white hover:text-gray-300">اقرأ المزيد</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 section-dark">
+        <div class="container mx-auto text-center">
+            <h2 class="section-header text-3xl font-bold">عن المكتب</h2>
+            <p class="mt-4 text-lg">مكتب لطيفة الجويعد للمحاماة يقدم خدمات قانونية متكاملة. نحن هنا لحل مشاكلكم القانونية بكفاءة ومصداقية.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 section-darker">
+        <div class="container mx-auto text-center">
+            <h2 class="section-header text-3xl font-bold">تواصل معنا</h2>
+            <form id="contactForm" class="mt-8 max-w-lg mx-auto">
+                <div class="mb-4">
+                    <input type="text" name="name" placeholder="الاسم" class="w-full p-4 border rounded bg-gray-700 text-white" required>
+                </div>
+                <div class="mb-4">
+                    <input type="email" name="email" placeholder="البريد الإلكتروني" class="w-full p-4 border rounded bg-gray-700 text-white">
+                </div>
+                <div class="mb-4">
+                    <textarea name="message" placeholder="الرسالة" class="w-full p-4 border rounded bg-gray-700 text-white" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary px-6 py-2 rounded">إرسال عبر واتساب</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-6">
+        <div class="container mx-auto text-center">
+            <div class="space-x-4">
+                <a href="https://x.com/Latifahjuwaied" target="_blank" class="text-white">تويتر</a>
+                <a href="#" class="text-white">لينكدإن</a>
+            </div>
+            <p class="mt-4">&copy; 2025 مكتب لطيفة الجويعد للمحاماة. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = this.name.value;
+            const email = this.email.value;
+            const message = this.message.value;
+            
+            const whatsappMessage = `رسالة جديدة من نموذج الاتصال:%0A%0Aالاسم: ${name}%0Aالبريد الإلكتروني: ${email}%0Aالرسالة: ${message}`;
+            
+            const whatsappNumber = '966500562643';
+            
+            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+            
+            window.open(whatsappUrl, '_blank');
+            
+            this.reset();
+        });
+    </script>
+</body>
+</html> 

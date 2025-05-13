@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background gradient -->
+    <defs>
+        <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1a365d;stop-opacity:0.9"/>
+            <stop offset="100%" style="stop-color:#2c5282;stop-opacity:0.9"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="1920" height="1080" fill="url(#bg-gradient)"/>
+    
+    <!-- Decorative elements -->
+    <g opacity="0.1">
+        <!-- Scales of Justice pattern -->
+        <path d="M100 100 L100 300" stroke="white" stroke-width="2"/>
+        <path d="M50 150 L150 150" stroke="white" stroke-width="2"/>
+        <path d="M50 250 L150 250" stroke="white" stroke-width="2"/>
+        
+        <!-- Repeat pattern -->
+        <use href="#scale" x="200" y="0"/>
+        <use href="#scale" x="400" y="0"/>
+        <use href="#scale" x="600" y="0"/>
+        <use href="#scale" x="800" y="0"/>
+        <use href="#scale" x="1000" y="0"/>
+        <use href="#scale" x="1200" y="0"/>
+        <use href="#scale" x="1400" y="0"/>
+        <use href="#scale" x="1600" y="0"/>
+        <use href="#scale" x="1800" y="0"/>
+    </g>
+</svg> 
